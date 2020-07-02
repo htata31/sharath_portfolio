@@ -14,8 +14,8 @@ export default class Main extends Component {
 			<div>
 				<HashRouter basename="/">
 					<Switch>
-						<Route path="/" exact component={Splash} />
-						<Route path="/home" component={Home} />
+						{/* <Route path="/" exact component={Splash} /> */}
+						<Route path="/" component={Home} />
 						<Route path="/experience" exact component={Experience} />
 						<Route path="/education" component={Education} />
 						<Route path="/opensource" component={Opensource} />
