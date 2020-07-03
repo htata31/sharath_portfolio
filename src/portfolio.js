@@ -14,9 +14,18 @@ const greeting = {
   // subTitle:
   //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
   subTitle:
-    "Computer Science x Psychology and Health Research",
+    "Research Assistant Professor",
+  department:" Computer and Information Science, University of Pennsylvania",
+  address: "Penn Medicine Center for Digital Health",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf"
+};
+
+const interests = ['Computational Social Science', 'Health x Psychology', 'Applied Machine Learning'];
+
+const education ={
+  course :[' PhD in Computer Science, 2017','B.E. (Hons) in Computer Science, 2013'],
+  institution : ['Nanyang Technological University, Singapore','Birla Institute of Technology and Science, Pilani'],
 };
 
 const socialMediaLinks = {
@@ -586,6 +595,8 @@ const contactInfo = {
 
 export {
   theme,
+  interests,
+  education,
   greeting,
   biography,
   socialMediaLinks,

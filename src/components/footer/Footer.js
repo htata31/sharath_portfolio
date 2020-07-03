@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className="footer-div">
       <Navbar  sticky="bottom">
-        <p className="footer-text">Made with <span role="img">❤️</span> by Ashutosh Hathidara</p>
+        <p className="footer-text">Contact <a href={`mailto:${'sharathg@sas.upenn.edu'}`}>Sharath Chandra Guntuku</a></p>
       </Navbar>
     </div>
   );

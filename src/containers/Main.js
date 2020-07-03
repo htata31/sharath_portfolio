@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from '../pages/contact/ContactComponent';
 import Projects from '../pages/projects/Projects';
+import Resources from '../pages/resources/Resources';
 
 export default class Main extends Component {
 	render() {
@@ -14,14 +15,14 @@ export default class Main extends Component {
 			<div>
 				<HashRouter basename="/">
 					<Switch>
-						{/* <Route path="/" exact component={Splash} /> */}
-						<Route path="/" component={Home} />
+						<Route path="/" exact component={Home} />
+						<Route path="/home" component={Home} />
 						<Route path="/experience" exact component={Experience} />
 						<Route path="/education" component={Education} />
 						<Route path="/opensource" component={Opensource} />
 						<Route path="/contact" component={Contact} />
 						<Route path="/splash" component={Splash} />
-						<Route path="/projects" component={Projects} />
+						<Route path="/projects" component={Resources} />
 					</Switch>
 				</HashRouter>
 			</div>
