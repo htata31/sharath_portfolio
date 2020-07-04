@@ -3,6 +3,7 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting, biography, interests, education } from "../../portfolio";
 import { Fade } from "react-reveal";
+import Sidebar from "../../containers/sidebar/Sidebar"
 
 
 // class App extends React.Component 
@@ -52,7 +53,8 @@ export default class Greeting extends React.Component {
       <Fade bottom duration={1000} distance="40px">
         <div className="greet-main" id="greeting">
           <div className="greeting-main">
-            <div>
+            <Sidebar />
+            {/* <div>
               <div className="greeting-image-div">
                 <img src="https://chandrasg.github.io/images/sharath.jpg" alt="">
                 </img>
@@ -66,7 +68,7 @@ export default class Greeting extends React.Component {
                   <a href="https://centerfordigitalhealth.upenn.edu/" target='_blank' >{greeting.address}</a></p>
                 <SocialMedia />
               </div>
-            </div>
+            </div> */}
 
             <div >
               {this.populateBiography()}

@@ -141,7 +141,9 @@ class Resources extends React.Component {
                     <div>
                         <h3>{resources.plagarism.title}</h3>
                         <p>{resources.plagarism.info}</p>
-                        <a href={resources.plagarism.youtube_link}><img  src={require(`../../assests/images/${resources.plagarism.logo_path}`)} alt={resources.plagarism.alt_name} /></a>
+                        <p>
+                        <a href={resources.plagarism.youtube_link}><img src="https://img.youtube.com/vi/r8zYpgCMoTA/0.jpg" alt="NTU Research Methods -- Comic Skit on Plagiarism" /></a>
+                        </p>
                     </div>
 
                 </div>

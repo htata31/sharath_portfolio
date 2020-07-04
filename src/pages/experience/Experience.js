@@ -5,6 +5,8 @@ import ExperienceAccordion from '../../containers/experienceAccordion/Experience
 // import experience from '../../shared/experience_data.json';
 import "./Experience.css";
 import { Fade } from "react-reveal";
+import CV from "../../_pages/cv.md"
+import ReactMarkdown from 'react-markdown'
 
 const experience = {
 	title: "Experience",
@@ -143,36 +145,63 @@ const experience = {
 };
 
 class Experience extends Component {
-	render() {
-		return (
-			<div className="experience-main">
-				<Header />
-				<div className="basic-experience">
-					<Fade bottom duration={1000} distance="40px">
-						<div className="experience-heading-div">
-							<div className="experience-heading-img-div">
-								<img
-									src={require(`../../assests/images/${experience["header_image_path"]}`)}
-								    alt=""
-								/>
-							</div>
-							<div className="experience-heading-text-div">
-								<h1 className="experience-heading-text">{experience.title}</h1>
-								<h3 className="experience-heading-sub-text">
-									{experience["subtitle"]}
-								</h3>
-								<p className="experience-header-detail-text subTitle">
-									{experience["description"]}
-								</p>
-							</div>
-						</div>
-					</Fade>
-				</div>
-				<ExperienceAccordion sections={experience["sections"]} />
-				<Footer />
-			</div>
-		);
+	constructor(props) {
+	  super(props)
+  
+	  this.state = { terms: null }
 	}
-}
+  
+	componentWillMount() {
+	  fetch(CV).then((response) => response.text()).then((text) => {
+		this.setState({ terms: text })
+	  })
+	}
+  
+	render() {
+	  return (
+		<div >
+			<Header />
+			<div className="basic-experience">
+			<ReactMarkdown source={this.state.terms} />
+			</div>
+		 
+		</div>
+	  )
+	}
+  }
+  
+  export default Experience
+// class Experience extends Component {
+// 	render() {
+// 		return (
+// 			<div className="experience-main">
+// 				<Header />
+// 				<div className="basic-experience">
+// 					<Fade bottom duration={1000} distance="40px">
+// 						<div className="experience-heading-div">
+// 							<div className="experience-heading-img-div">
+// 								<img
+// 									src={require(`../../assests/images/${experience["header_image_path"]}`)}
+// 								    alt=""
+// 								/>
+// 							</div>
+// 							<div className="experience-heading-text-div">
+// 								<h1 className="experience-heading-text">{experience.title}</h1>
+// 								<h3 className="experience-heading-sub-text">
+// 									{experience["subtitle"]}
+// 								</h3>
+// 								<p className="experience-header-detail-text subTitle">
+// 									{experience["description"]}
+// 								</p>
+// 							</div>
+// 						</div>
+// 					</Fade>
+// 				</div>
+// 				<ExperienceAccordion sections={experience["sections"]} />
+// 				<Footer />
+// 			</div>
+// 		);
+// 	}
+// }
 
-export default Experience;
+// export default Experience;
