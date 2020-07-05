@@ -29,7 +29,7 @@ function Header() {
 						</li>
 						<li>
 							<NavLink
-								to="/education"
+								to="/publications"
 								tag={Link}
 								activeStyle={{ fontWeight: "bold" }}
 							>
@@ -38,7 +38,7 @@ function Header() {
 						</li>
 						<li>
 							<NavLink
-								to="/experience"
+								to="/cv"
 								tag={Link}
 								activeStyle={{ fontWeight: "bold" }}
 							>
@@ -47,7 +47,7 @@ function Header() {
 						</li>
 						<li>
 							<NavLink
-								to="/projects"
+								to="/resources"
 								tag={Link}
 								activeStyle={{ fontWeight: "bold" }}
 							>
@@ -56,7 +56,7 @@ function Header() {
 						</li>
 						<li>
 							<NavLink
-								to="/opensource"
+								to="/media"
 								tag={Link}
 								activeStyle={{ fontWeight: "bold" }}
 							>
@@ -65,7 +65,7 @@ function Header() {
 						</li>
 						<li>
 							<NavLink
-								to="/contact"
+								to="/talks"
 								tag={Link}
 								activeStyle={{ fontWeight: "bold" }}
 							>

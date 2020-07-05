@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import SkillSection from "./SkillSection";
 import { Fade } from "react-reveal";
 
 export default function Skills() {
@@ -11,7 +10,6 @@ export default function Skills() {
           <h1 className="skills-header">What I Do?</h1>
         </Fade>
       </div>
-      <SkillSection />
     </div>
   );
 }
