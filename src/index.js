@@ -14,11 +14,11 @@ import "./assests/font-awesome/css/all.css";
 const engine = new Styletron();
 
 ReactDOM.render(
-	<StyletronProvider value={engine}>
-		<BaseProvider theme={LightTheme}>
-				<App />
-	</BaseProvider>
-	</StyletronProvider>,
+	// <StyletronProvider value={engine}>
+	// 	<BaseProvider theme={LightTheme}>
+				<App />,
+	// </BaseProvider>
+	// </StyletronProvider>,
 	document.getElementById("root")
 );
 
