@@ -1,9 +1,9 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting, biography, interests, education } from "../../portfolio";
+import { biography, interests, education } from "../../portfolio";
 import { Fade } from "react-reveal";
-import Sidebar from "../../containers/sidebar/Sidebar"
+import Sidebar from "../../containers/sidebar/Sidebar";
 
 
 // class App extends React.Component 

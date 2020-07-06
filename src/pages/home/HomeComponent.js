@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
-import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 
 class Home extends Component {
@@ -9,8 +8,9 @@ class Home extends Component {
     return (
       <div>
         <Header />
+        <div>
         <Greeting />
-        {/* <Skills /> */}
+        </div>
         {/* <Footer /> */}
       </div>
     );

@@ -8,7 +8,7 @@ import { Navbar } from 'react-bootstrap';
 export default function Footer() {
   return (
     <div className="footer-div">
-      <Navbar  sticky="bottom">
+      <Navbar className="navbar-light bg-light" sticky="bottom">
         <p className="footer-text">Contact <a href={`mailto:${'sharathg@sas.upenn.edu'}`}>Sharath Chandra Guntuku</a></p>
       </Navbar>
     </div>
