@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/sharathportfolio.github.io/static/css/main.3c7dfe82.chunk.css",
+    "main.js": "/sharathportfolio.github.io/static/js/main.a76cc8ec.chunk.js",
+    "main.js.map": "/sharathportfolio.github.io/static/js/main.a76cc8ec.chunk.js.map",
+    "runtime-main.js": "/sharathportfolio.github.io/static/js/runtime-main.632a0f1d.js",
+    "runtime-main.js.map": "/sharathportfolio.github.io/static/js/runtime-main.632a0f1d.js.map",
+    "static/js/2.3c6049e0.chunk.js": "/sharathportfolio.github.io/static/js/2.3c6049e0.chunk.js",
+    "static/js/2.3c6049e0.chunk.js.map": "/sharathportfolio.github.io/static/js/2.3c6049e0.chunk.js.map",
+    "index.html": "/sharathportfolio.github.io/index.html",
+    "precache-manifest.dd5a014591de8fa0e4137db5f5682127.js": "/sharathportfolio.github.io/precache-manifest.dd5a014591de8fa0e4137db5f5682127.js",
+    "service-worker.js": "/sharathportfolio.github.io/service-worker.js",
+    "static/css/main.3c7dfe82.chunk.css.map": "/sharathportfolio.github.io/static/css/main.3c7dfe82.chunk.css.map",
+    "static/js/2.3c6049e0.chunk.js.LICENSE.txt": "/sharathportfolio.github.io/static/js/2.3c6049e0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sharathportfolio.github.io/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/cv.md": "/sharathportfolio.github.io/static/media/cv.2bd50610.md",
+    "static/media/all.css": "/sharathportfolio.github.io/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/media.md": "/sharathportfolio.github.io/static/media/media.f37bcf71.md",
+    "static/media/publications.md": "/sharathportfolio.github.io/static/media/publications.3f325ddc.md",
+    "static/media/resources.md": "/sharathportfolio.github.io/static/media/resources.faa34f9f.md",
+    "static/media/talks.md": "/sharathportfolio.github.io/static/media/talks.27122aad.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.632a0f1d.js",
+    "static/js/2.3c6049e0.chunk.js",
+    "static/css/main.3c7dfe82.chunk.css",
+    "static/js/main.a76cc8ec.chunk.js"
+  ]
+}
