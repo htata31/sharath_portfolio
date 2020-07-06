@@ -81,6 +81,7 @@ a {
 .interests {
   /* width: 40%; */
   float: left;
+  margin-right: 80px;
 }
 .education {
   /* width: 40%; */
@@ -105,6 +106,12 @@ a {
 
 .ul {
   padding-left: 1em;
+}
+
+.a_color{
+  color: #3f51b5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
 }
 
 

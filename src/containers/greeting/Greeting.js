@@ -14,7 +14,7 @@ export default class Greeting extends React.Component {
     arr.push(React.createElement('h1', {}, 'Biography'));
     for (let i in biography.intro) {
       if(parseInt(i) === 2)
-        arr.push(React.createElement('p', {}, [biography.intro[i],React.createElement('a', {href: 'https://www.arcgis.com/apps/opsdashboard/index.html#/abb41818160d4cec91f604520a088349' }, '[Dashboard]')]));
+        arr.push(React.createElement('p', {}, [biography.intro[i],React.createElement('a', {href: 'https://www.arcgis.com/apps/opsdashboard/index.html#/abb41818160d4cec91f604520a088349', className: 'a_color' }, '[Dashboard]')]));
       else
         arr.push(React.createElement('p', {}, biography.intro[i]));
     }
