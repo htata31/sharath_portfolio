@@ -1,8 +1,21 @@
 .media-data {
     margin-left: 5%;
     margin-right: 5%;
+    max-width: 1280px;
   }
 
 .media-main {
     width: 100vw;
 }
+
+@media screen and (min-width: 1000px) {
+  .media-data {
+    margin-left: 15%;
+    margin-right: 5%;
+    max-width: 1280px;
+  }
+}
+
+.media-data > a{
+  text-decoration: underline ;
+ }

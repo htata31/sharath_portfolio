@@ -8,7 +8,7 @@ import { greeting } from "../../portfolio";
 export default class Sidebar extends React.Component {
     render() {
         return (
-            <div className ="col-12 col-lg-4">
+            <div className ="col-12 col-lg-4 side-main">
                 <div className="greeting-image-div">
                     <img src="https://chandrasg.github.io/images/sharath.jpg" alt="">
                     </img>

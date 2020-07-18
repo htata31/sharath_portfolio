@@ -1,4 +1,18 @@
-.publications-data {
+.publications-data  {
     margin-left: 5%;
     margin-right: 5%;
+    max-width: 1280px;
   }
+
+
+@media screen and (min-width: 1000px) {
+  .publications-data  {
+    margin-left: 15%;
+    margin-right: 5%;
+    max-width: 1280px;
+  }
+}
+
+.publications-data > a{
+  text-decoration: underline ;
+ }

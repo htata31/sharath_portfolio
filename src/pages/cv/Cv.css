@@ -1,4 +1,17 @@
 .cv-experience {
     margin-left: 5%;
     margin-right: 5%;
+    max-width: 1280px;
   }
+
+  @media screen and (min-width: 1000px) {
+    .cv-experience  {
+      margin-left: 15%;
+      margin-right: 5%;
+      max-width: 1280px;
+    }
+  }
+
+  .cv-experience > a{
+    text-decoration: underline ;
+   }

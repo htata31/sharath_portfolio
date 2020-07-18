@@ -6,16 +6,23 @@
 
 
 .resourceView {
-    /* max-width: 1280px; */
-    /* width : 80%; */
     margin-left: 5%;
     margin-right: 5%;
 }
+
+@media screen and (min-width: 1000px) {
+    .resourceView  {
+      margin-left: 15%;
+      margin-right: 5%;
+      max-width: 1280px;
+    }
+  }
+
 img{
     max-width: 100%
 }
 a{
-    color: black;
+    color:#3f51b5;
 }
 
 h3{

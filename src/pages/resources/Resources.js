@@ -99,9 +99,9 @@ class Resources extends React.Component {
 
     render() {
         return (
-            <div className = "media-main">
+            <div >
                 <Header />
-                <div className="media-data">
+                <div className="resourceView">
                     <ReactMarkdown source={this.state.data} />
                 </div>
                 <Footer />
