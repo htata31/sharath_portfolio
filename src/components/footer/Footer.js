@@ -9,7 +9,8 @@ export default function Footer() {
   return (
     <div className="footer-div">
       <Navbar className="navbar-light bg-light" sticky="bottom">
-        <p className="footer-text">Contact <a href={`mailto:${'sharathg@sas.upenn.edu'}`}>Sharath Chandra Guntuku</a></p>
+        <p className="footer-text"><a href={`mailto:${'sharathg@sas.upenn.edu'}`}>Sharath Chandra Guntuku</a></p>
+        <p className="footer-text">Levine Hall, 3330 Walnut St, Philadelphia, PA</p>
         <div >
           <div className="social-media-div social-media">
             <a
