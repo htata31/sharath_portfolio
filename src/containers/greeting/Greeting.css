@@ -72,11 +72,11 @@
   text-align: center;
 }
 
-.greeting-image-div > img {
-  max-width: 45%;
+/* .greeting-image-div > img {
+  max-width: 35%;
   border-radius: 50%;
   height: auto;
-}
+} */
 
 
 .biography {

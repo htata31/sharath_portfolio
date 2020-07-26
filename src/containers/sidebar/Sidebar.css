@@ -31,7 +31,7 @@
   }
   
   .greeting-image-div > img {
-    max-width: 45%;
+    max-width: 35%;
     border-radius: 50%;
     height: auto;
   }

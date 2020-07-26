@@ -23,6 +23,7 @@
 }
 
 .header li a {
+  font-weight: normal;
   display: block;
   padding: 20px 20px;
   color: white;
