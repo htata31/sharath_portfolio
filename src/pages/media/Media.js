@@ -27,7 +27,7 @@ class Media extends Component {
                 <div className="media-data">
                     <ReactMarkdown source={this.state.data} />
                 </div>
-                <Footer />
+                {this.state.data !== null ? <Footer />: null}
             </div>
         )
     }

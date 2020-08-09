@@ -26,7 +26,7 @@ class Cv extends Component {
 			<div className="cv-experience">
 			<ReactMarkdown source={this.state.data} />
 			</div>
-            <Footer />
+			{this.state.data !== null ? <Footer />: null}
 		</div>
 	  )
 	}

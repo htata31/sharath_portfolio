@@ -8,7 +8,7 @@ function Header() {
 		<Fade top duration={1000} distance="20px">
 			<div className="navBar">
 				<header className="header">
-					<NavLink to="/~sharathg/" tag={Link} className="logo">
+					<NavLink to="/home" tag={Link} className="logo">
 						{/* <span className="grey-color"> &lt;</span> */}
 						<span className="logo-name">Sharath Chandra Guntuku</span>
 						{/* <span className="grey-color">/&gt;</span> */}

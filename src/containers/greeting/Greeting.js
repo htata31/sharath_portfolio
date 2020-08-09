@@ -70,13 +70,12 @@ export default class Greeting extends React.Component {
               </div>
             </div> */}
 
-            <div >
+            <div className="col-12 col-lg-8" >
               {this.populateBiography()}
               <div>
                 {this.interests()}
                 {this.education()}
               </div>
-
             </div>
           </div>
         </div>

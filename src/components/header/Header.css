@@ -38,12 +38,21 @@
 @media screen and (min-width: 1000px) {
   .header .logo  {
     margin-top: 0;
+    font-size: 22px;
+    /* font-family: "Roboto"; */
+    font-weight: 700;
+  }
+
+  .menu >li {
+    font-size: 14px;
+    /* font-family: "Roboto"; */
+    font-weight: 400;
   }
 }
 .header .logo {
   display: block;
   float: left;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
@@ -159,5 +168,5 @@
 
 .menu >li {
   line-height: 15px;
-  font-size: 1em;
+  /* font-size: 1em; */
 }

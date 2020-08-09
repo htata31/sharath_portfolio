@@ -27,7 +27,7 @@ class Publications extends Component {
                 <div className="publications-data">
                     <ReactMarkdown source={this.state.data} />
                 </div>
-                <Footer />
+                {this.state.data !== null ? <Footer />: null}
             </div>
         )
     }

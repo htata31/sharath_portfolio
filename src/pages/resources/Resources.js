@@ -104,7 +104,7 @@ class Resources extends React.Component {
                 <div className="resourceView">
                     <ReactMarkdown source={this.state.data} />
                 </div>
-                <Footer />
+                {this.state.data !== null ? <Footer />: null}
             </div>
         )
     }
