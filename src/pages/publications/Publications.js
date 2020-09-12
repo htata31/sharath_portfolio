@@ -23,7 +23,7 @@ class Publications extends Component {
     render() {
         return (
             <div >
-                <Header />
+                {/* {this.state.data !== null ? <Header />: null} */}
                 <div className="publications-data">
                     <ReactMarkdown source={this.state.data} />
                 </div>

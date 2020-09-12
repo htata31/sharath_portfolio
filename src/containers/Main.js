@@ -6,12 +6,15 @@ import Cv from '../pages/cv/Cv';
 import Publications from '../pages/publications/Publications';
 import Media from '../pages/media/Media';
 import Talks from '../pages/talks/Talks';
+import Header from "../../src/components/header/Header";
 
 export default class Main extends Component {
 	render() {
 		return (
 			<div>
+				
 				<HashRouter basename="/">
+					<Header />
 					<Switch>
 						<Route path="/" exact component={Home} />
 						<Route path="/home" component={Home} />

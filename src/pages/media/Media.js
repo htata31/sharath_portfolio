@@ -23,7 +23,7 @@ class Media extends Component {
     render() {
         return (
             <div className = "media-main">
-                <Header />
+                {/* <Header /> */}
                 <div className="media-data">
                     <ReactMarkdown source={this.state.data} />
                 </div>

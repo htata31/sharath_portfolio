@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 
 function Header() {
   return (
-		<Fade top duration={1000} distance="20px">
+		// <Fade top duration={1000} distance="20px">
 			<div className="navBar">
 				<header className="header">
 					<NavLink to="/home" tag={Link} className="logo">
@@ -13,10 +13,10 @@ function Header() {
 						<span className="logo-name">Sharath Chandra Guntuku</span>
 						{/* <span className="grey-color">/&gt;</span> */}
 					</NavLink>
-					<input className="menu-btn" type="checkbox" id="menu-btn" />
+					{/* <input className="menu-btn" type="checkbox" id="menu-btn" />
 					<label className="menu-icon" htmlFor="menu-btn">
 						<span className="navicon"></span>
-					</label>
+					</label> */}
 					<ul className="menu">
 						<li>
 							<NavLink
@@ -75,7 +75,7 @@ function Header() {
 					</ul>
 				</header>
 			</div>
-		</Fade>
+		// </Fade>
 	);
 }
 export default Header;

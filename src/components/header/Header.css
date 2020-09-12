@@ -108,11 +108,11 @@
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  /* top: 5px; */
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  /* top: -5px; */
 }
 
 /* menu btn */

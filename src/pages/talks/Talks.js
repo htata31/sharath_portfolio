@@ -23,7 +23,7 @@ class Talks extends Component {
     render() {
         return (
             <div >
-                <Header />
+                {/* <Header /> */}
                 <div className="talks-data">
                     <ReactMarkdown source={this.state.data} />
                 </div>

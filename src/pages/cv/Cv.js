@@ -22,7 +22,7 @@ class Cv extends Component {
 	render() {
 	  return (
 		<div >
-			<Header />
+			{/* <Header /> */}
 			<div className="cv-experience">
 			<ReactMarkdown source={this.state.data} />
 			</div>

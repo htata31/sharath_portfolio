@@ -100,7 +100,7 @@ class Resources extends React.Component {
     render() {
         return (
             <div >
-                <Header />
+                {/* <Header /> */}
                 <div className="resourceView">
                     <ReactMarkdown source={this.state.data} />
                 </div>
