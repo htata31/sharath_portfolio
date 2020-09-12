@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sharathportfolio.github.io/static/css/main.e2088dbf.chunk.css",
-    "main.js": "/sharathportfolio.github.io/static/js/main.1a81edf6.chunk.js",
-    "main.js.map": "/sharathportfolio.github.io/static/js/main.1a81edf6.chunk.js.map",
+    "main.css": "/sharathportfolio.github.io/static/css/main.0de321f0.chunk.css",
+    "main.js": "/sharathportfolio.github.io/static/js/main.b4de7be6.chunk.js",
+    "main.js.map": "/sharathportfolio.github.io/static/js/main.b4de7be6.chunk.js.map",
     "runtime-main.js": "/sharathportfolio.github.io/static/js/runtime-main.632a0f1d.js",
     "runtime-main.js.map": "/sharathportfolio.github.io/static/js/runtime-main.632a0f1d.js.map",
-    "static/js/2.a4b9460b.chunk.js": "/sharathportfolio.github.io/static/js/2.a4b9460b.chunk.js",
-    "static/js/2.a4b9460b.chunk.js.map": "/sharathportfolio.github.io/static/js/2.a4b9460b.chunk.js.map",
+    "static/js/2.15f0b4e8.chunk.js": "/sharathportfolio.github.io/static/js/2.15f0b4e8.chunk.js",
+    "static/js/2.15f0b4e8.chunk.js.map": "/sharathportfolio.github.io/static/js/2.15f0b4e8.chunk.js.map",
     "index.html": "/sharathportfolio.github.io/index.html",
-    "precache-manifest.79dab70c360179a10746774079ba01fe.js": "/sharathportfolio.github.io/precache-manifest.79dab70c360179a10746774079ba01fe.js",
+    "precache-manifest.5df0b26660f6513a38edd91fa0e715d5.js": "/sharathportfolio.github.io/precache-manifest.5df0b26660f6513a38edd91fa0e715d5.js",
     "service-worker.js": "/sharathportfolio.github.io/service-worker.js",
-    "static/css/main.e2088dbf.chunk.css.map": "/sharathportfolio.github.io/static/css/main.e2088dbf.chunk.css.map",
-    "static/js/2.a4b9460b.chunk.js.LICENSE.txt": "/sharathportfolio.github.io/static/js/2.a4b9460b.chunk.js.LICENSE.txt",
+    "static/css/main.0de321f0.chunk.css.map": "/sharathportfolio.github.io/static/css/main.0de321f0.chunk.css.map",
+    "static/js/2.15f0b4e8.chunk.js.LICENSE.txt": "/sharathportfolio.github.io/static/js/2.15f0b4e8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/sharathportfolio.github.io/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/cv.md": "/sharathportfolio.github.io/static/media/cv.2bd50610.md",
     "static/media/all.css": "/sharathportfolio.github.io/static/media/fa-solid-900.8e4a6dcc.eot",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.632a0f1d.js",
-    "static/js/2.a4b9460b.chunk.js",
-    "static/css/main.e2088dbf.chunk.css",
-    "static/js/main.1a81edf6.chunk.js"
+    "static/js/2.15f0b4e8.chunk.js",
+    "static/css/main.0de321f0.chunk.css",
+    "static/js/main.b4de7be6.chunk.js"
   ]
 }
